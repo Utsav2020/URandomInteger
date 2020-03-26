@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'URandomInteger_Example' do
+  pod 'URandomInteger', :path => '../'
+
+  target 'URandomInteger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
