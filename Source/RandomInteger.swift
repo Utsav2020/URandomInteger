@@ -13,4 +13,9 @@ public class RandomInteger
     {
         return Int(arc4random())
     }
+    public static func TestString() -> String
+    {
+        return "Test String"
+    }
+    
 }
