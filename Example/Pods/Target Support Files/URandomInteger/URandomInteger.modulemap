@@ -1,0 +1,6 @@
+framework module URandomInteger {
+  umbrella header "URandomInteger-umbrella.h"
+
+  export *
+  module * { export * }
+}

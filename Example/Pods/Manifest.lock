@@ -1,0 +1,16 @@
+PODS:
+  - URandomInteger (0.1.0)
+
+DEPENDENCIES:
+  - URandomInteger (from `../`)
+
+EXTERNAL SOURCES:
+  URandomInteger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  URandomInteger: 151da9fd0ff753497021f26998b202f1b2a917f5
+
+PODFILE CHECKSUM: e79737ed615fb069d1411aaef48e52565f5b6094
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0560F44CAB3C70A654AEA649223DAE0F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD81CE8E621AC3AD6D9961D45CA8E1CD /* ReplaceMe.swift */; };
+		0E82B35F5675755E754F7193E9F19C4B /* Pods-URandomInteger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D702C56CDFF6BEF4239184C3DC9C8B4 /* Pods-URandomInteger_Tests-dummy.m */; };
+		0F1F8E11F9E46315243BDCF50AFA6FEF /* Pods-URandomInteger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 621AD87B7FAFE4EFD419D90ABC559F6C /* Pods-URandomInteger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28B9BDC37AB08B3DE3ECFC0AF0D6AA51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		47030D3DC5BEED610168D4190C303945 /* URandomInteger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FCCCE1808E82D7E3B2BFC09B7BAA6A /* URandomInteger-dummy.m */; };
+		79F0F0D9287D86B1CBAFDE41D2D31E95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A1F9C74BD44160CEB5C80418E596AE2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C99FD6C1FC58E106AC6A20718915AEDD /* Pods-URandomInteger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9CD33C9EA557008794796D95BA336BC /* Pods-URandomInteger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E503ACFD293B8B9AA99B38CCF6ED884C /* Pods-URandomInteger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0AA9BA7E151CB20C68F1FDCAC63C01 /* Pods-URandomInteger_Example-dummy.m */; };
+		E53EFC1681C2252D7208C1B41A1DDAB3 /* URandomInteger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1839B8C2D97365244D90D0E24B59CE /* URandomInteger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FC6998D1F1087F23BD331EC7D80B91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FA3E4CA853EDF94529801FF6A4108E;
+			remoteInfo = "Pods-URandomInteger_Example";
+		};
+		BB225E3348DB64C65908A5D1E811565E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BB12024E57288C582C021B7A0D58D5;
+			remoteInfo = URandomInteger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D1BEECD34DA323F3B81C8FBBDD488A0 /* URandomInteger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "URandomInteger-Info.plist"; sourceTree = "<group>"; };
+		22FCCCE1808E82D7E3B2BFC09B7BAA6A /* URandomInteger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "URandomInteger-dummy.m"; sourceTree = "<group>"; };
+		25A8A9B958D0A512D59F0D59BD7DB6BE /* Pods-URandomInteger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URandomInteger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		27946695583D84FE22E8A54E63DBA1A7 /* Pods-URandomInteger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URandomInteger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C2B41FA6ECD86EEB97B3C0A42F47556 /* Pods-URandomInteger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URandomInteger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3649157E90813687C1FA2E6B21D9499A /* Pods_URandomInteger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_URandomInteger_Tests.framework; path = "Pods-URandomInteger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EB0F0D1C65B29D57CD6811A3A3F75B /* Pods-URandomInteger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URandomInteger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		49A43613FF434CB1CC4E97E53D881799 /* Pods-URandomInteger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-URandomInteger_Tests.modulemap"; sourceTree = "<group>"; };
+		4BA57415449346846072FEE430FB68DD /* Pods-URandomInteger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-URandomInteger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BD825D7186B177B2D09A91D3208D570 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		621AD87B7FAFE4EFD419D90ABC559F6C /* Pods-URandomInteger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-URandomInteger_Example-umbrella.h"; sourceTree = "<group>"; };
+		6856786FC0A188E33E46B4A4C95CD303 /* URandomInteger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = URandomInteger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6A35C4EB843309460A0271533A346F8C /* URandomInteger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = URandomInteger.framework; path = URandomInteger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A641BA4BF5E20D61E3C3F97E90502F /* Pods-URandomInteger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-URandomInteger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C66CB1CA5F73810DE3260DC6D0CBCDD /* Pods-URandomInteger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URandomInteger_Tests-Info.plist"; sourceTree = "<group>"; };
+		8D702C56CDFF6BEF4239184C3DC9C8B4 /* Pods-URandomInteger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-URandomInteger_Tests-dummy.m"; sourceTree = "<group>"; };
+		9852973EA985D3F414423DFE8D7726B0 /* URandomInteger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = URandomInteger.modulemap; sourceTree = "<group>"; };
+		9B1839B8C2D97365244D90D0E24B59CE /* URandomInteger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URandomInteger-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9CD33C9EA557008794796D95BA336BC /* Pods-URandomInteger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-URandomInteger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B925FDF26FF0568D6E763AE181F558ED /* Pods-URandomInteger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URandomInteger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5C179F0156A95FEA640372C7ACE3D1C /* Pods_URandomInteger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_URandomInteger_Example.framework; path = "Pods-URandomInteger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0AA9BA7E151CB20C68F1FDCAC63C01 /* Pods-URandomInteger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-URandomInteger_Example-dummy.m"; sourceTree = "<group>"; };
+		CD81CE8E621AC3AD6D9961D45CA8E1CD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = URandomInteger/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		CE36374648C71202D57076AAD70B5A44 /* Pods-URandomInteger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-URandomInteger_Example.modulemap"; sourceTree = "<group>"; };
+		D56D902D645855BB58307F5B2A93A7B1 /* Pods-URandomInteger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URandomInteger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB32C4BC261FBD4BD4FC7A34DFCC5C85 /* Pods-URandomInteger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-URandomInteger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DCC5A104DBBA7AAC5866A8B5E8B12DD1 /* URandomInteger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URandomInteger.xcconfig; sourceTree = "<group>"; };
+		DD12ED376F2DEA6AF609E165B63EA788 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E04C1F51E7A10F3A4E8824954027F30A /* Pods-URandomInteger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URandomInteger_Example-Info.plist"; sourceTree = "<group>"; };
+		F044646BD6C96A68E9E4C570D25558FB /* URandomInteger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URandomInteger-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090DA3730CE1C3F1E13DF3F5F361AD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F0F0D9287D86B1CBAFDE41D2D31E95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CBDDBA53065DE4246954821430FB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B9BDC37AB08B3DE3ECFC0AF0D6AA51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAE50A52F33EC226FEF198033E82AC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F9C74BD44160CEB5C80418E596AE2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10ED1302B4A788056D85D7C331BCE956 /* URandomInteger */ = {
+			isa = PBXGroup;
+			children = (
+				CD81CE8E621AC3AD6D9961D45CA8E1CD /* ReplaceMe.swift */,
+				91B880C871F02B1CEF835D7750C5B0A4 /* Pod */,
+				F63FFF364210C39B862B1A669CE17287 /* Support Files */,
+			);
+			name = URandomInteger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4219DAEAF62731626A901B8232D84530 /* Pods-URandomInteger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				49A43613FF434CB1CC4E97E53D881799 /* Pods-URandomInteger_Tests.modulemap */,
+				4BA57415449346846072FEE430FB68DD /* Pods-URandomInteger_Tests-acknowledgements.markdown */,
+				D56D902D645855BB58307F5B2A93A7B1 /* Pods-URandomInteger_Tests-acknowledgements.plist */,
+				8D702C56CDFF6BEF4239184C3DC9C8B4 /* Pods-URandomInteger_Tests-dummy.m */,
+				7C66CB1CA5F73810DE3260DC6D0CBCDD /* Pods-URandomInteger_Tests-Info.plist */,
+				A9CD33C9EA557008794796D95BA336BC /* Pods-URandomInteger_Tests-umbrella.h */,
+				27946695583D84FE22E8A54E63DBA1A7 /* Pods-URandomInteger_Tests.debug.xcconfig */,
+				25A8A9B958D0A512D59F0D59BD7DB6BE /* Pods-URandomInteger_Tests.release.xcconfig */,
+			);
+			name = "Pods-URandomInteger_Tests";
+			path = "Target Support Files/Pods-URandomInteger_Tests";
+			sourceTree = "<group>";
+		};
+		91B880C871F02B1CEF835D7750C5B0A4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DD12ED376F2DEA6AF609E165B63EA788 /* LICENSE */,
+				5BD825D7186B177B2D09A91D3208D570 /* README.md */,
+				6856786FC0A188E33E46B4A4C95CD303 /* URandomInteger.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9BB304C10343E2B2881A74F9CF111C1D /* Pods-URandomInteger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CE36374648C71202D57076AAD70B5A44 /* Pods-URandomInteger_Example.modulemap */,
+				79A641BA4BF5E20D61E3C3F97E90502F /* Pods-URandomInteger_Example-acknowledgements.markdown */,
+				B925FDF26FF0568D6E763AE181F558ED /* Pods-URandomInteger_Example-acknowledgements.plist */,
+				CA0AA9BA7E151CB20C68F1FDCAC63C01 /* Pods-URandomInteger_Example-dummy.m */,
+				DB32C4BC261FBD4BD4FC7A34DFCC5C85 /* Pods-URandomInteger_Example-frameworks.sh */,
+				E04C1F51E7A10F3A4E8824954027F30A /* Pods-URandomInteger_Example-Info.plist */,
+				621AD87B7FAFE4EFD419D90ABC559F6C /* Pods-URandomInteger_Example-umbrella.h */,
+				2C2B41FA6ECD86EEB97B3C0A42F47556 /* Pods-URandomInteger_Example.debug.xcconfig */,
+				39EB0F0D1C65B29D57CD6811A3A3F75B /* Pods-URandomInteger_Example.release.xcconfig */,
+			);
+			name = "Pods-URandomInteger_Example";
+			path = "Target Support Files/Pods-URandomInteger_Example";
+			sourceTree = "<group>";
+		};
+		A4EC22FC2E28B42B4B8A1ED5D20B7B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5C179F0156A95FEA640372C7ACE3D1C /* Pods_URandomInteger_Example.framework */,
+				3649157E90813687C1FA2E6B21D9499A /* Pods_URandomInteger_Tests.framework */,
+				6A35C4EB843309460A0271533A346F8C /* URandomInteger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC67E12C01F48A10CFA2CCAC970F763B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10ED1302B4A788056D85D7C331BCE956 /* URandomInteger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AC67E12C01F48A10CFA2CCAC970F763B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A4EC22FC2E28B42B4B8A1ED5D20B7B88 /* Products */,
+				EB2D32E35AF9799FC13DEE5BDDCFCE6B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB2D32E35AF9799FC13DEE5BDDCFCE6B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BB304C10343E2B2881A74F9CF111C1D /* Pods-URandomInteger_Example */,
+				4219DAEAF62731626A901B8232D84530 /* Pods-URandomInteger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F63FFF364210C39B862B1A669CE17287 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9852973EA985D3F414423DFE8D7726B0 /* URandomInteger.modulemap */,
+				DCC5A104DBBA7AAC5866A8B5E8B12DD1 /* URandomInteger.xcconfig */,
+				22FCCCE1808E82D7E3B2BFC09B7BAA6A /* URandomInteger-dummy.m */,
+				1D1BEECD34DA323F3B81C8FBBDD488A0 /* URandomInteger-Info.plist */,
+				F044646BD6C96A68E9E4C570D25558FB /* URandomInteger-prefix.pch */,
+				9B1839B8C2D97365244D90D0E24B59CE /* URandomInteger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/URandomInteger";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		404A3F1FC83053C65C0E8BF2DEB53028 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99FD6C1FC58E106AC6A20718915AEDD /* Pods-URandomInteger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4572534E90BFEA4BA5B3C3818FF53C03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53EFC1681C2252D7208C1B41A1DDAB3 /* URandomInteger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B20ABA0FD6262036886EBAA1107F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1F8E11F9E46315243BDCF50AFA6FEF /* Pods-URandomInteger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DD4B90FCD5B07A28CC609760B3D4117 /* Pods-URandomInteger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A9AC6CB7C97B12A79A1219314B5EB27 /* Build configuration list for PBXNativeTarget "Pods-URandomInteger_Tests" */;
+			buildPhases = (
+				404A3F1FC83053C65C0E8BF2DEB53028 /* Headers */,
+				A0B31D2466907333B94A1A96CE9CEBB3 /* Sources */,
+				C0CBDDBA53065DE4246954821430FB8B /* Frameworks */,
+				19DC66820875E7C3686289FFE2148D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB002B129D89F6E328E0A613886E3ED /* PBXTargetDependency */,
+			);
+			name = "Pods-URandomInteger_Tests";
+			productName = "Pods-URandomInteger_Tests";
+			productReference = 3649157E90813687C1FA2E6B21D9499A /* Pods_URandomInteger_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3FA3E4CA853EDF94529801FF6A4108E /* Pods-URandomInteger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1AFA17C8F0B48964B852A8EC8289EF /* Build configuration list for PBXNativeTarget "Pods-URandomInteger_Example" */;
+			buildPhases = (
+				D2B20ABA0FD6262036886EBAA1107F97 /* Headers */,
+				ABCFB103F53FEA777DA6B20A883E39D9 /* Sources */,
+				DAAE50A52F33EC226FEF198033E82AC6 /* Frameworks */,
+				481333D0DD3B2E3E4DBFA2D4982F115F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B4B439878F0EF62CA331D396F74351 /* PBXTargetDependency */,
+			);
+			name = "Pods-URandomInteger_Example";
+			productName = "Pods-URandomInteger_Example";
+			productReference = C5C179F0156A95FEA640372C7ACE3D1C /* Pods_URandomInteger_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1BB12024E57288C582C021B7A0D58D5 /* URandomInteger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AC4365B4CD538C1B3D049F52B7850A /* Build configuration list for PBXNativeTarget "URandomInteger" */;
+			buildPhases = (
+				4572534E90BFEA4BA5B3C3818FF53C03 /* Headers */,
+				10A2F980C0F74BC9EC022A47E5B655B2 /* Sources */,
+				090DA3730CE1C3F1E13DF3F5F361AD48 /* Frameworks */,
+				270D83F13A4631B610EB4B2328208F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URandomInteger;
+			productName = URandomInteger;
+			productReference = 6A35C4EB843309460A0271533A346F8C /* URandomInteger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A4EC22FC2E28B42B4B8A1ED5D20B7B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FA3E4CA853EDF94529801FF6A4108E /* Pods-URandomInteger_Example */,
+				5DD4B90FCD5B07A28CC609760B3D4117 /* Pods-URandomInteger_Tests */,
+				F1BB12024E57288C582C021B7A0D58D5 /* URandomInteger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19DC66820875E7C3686289FFE2148D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270D83F13A4631B610EB4B2328208F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		481333D0DD3B2E3E4DBFA2D4982F115F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A2F980C0F74BC9EC022A47E5B655B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0560F44CAB3C70A654AEA649223DAE0F /* ReplaceMe.swift in Sources */,
+				47030D3DC5BEED610168D4190C303945 /* URandomInteger-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B31D2466907333B94A1A96CE9CEBB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E82B35F5675755E754F7193E9F19C4B /* Pods-URandomInteger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFB103F53FEA777DA6B20A883E39D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E503ACFD293B8B9AA99B38CCF6ED884C /* Pods-URandomInteger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9B4B439878F0EF62CA331D396F74351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = URandomInteger;
+			target = F1BB12024E57288C582C021B7A0D58D5 /* URandomInteger */;
+			targetProxy = BB225E3348DB64C65908A5D1E811565E /* PBXContainerItemProxy */;
+		};
+		CDB002B129D89F6E328E0A613886E3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-URandomInteger_Example";
+			target = A3FA3E4CA853EDF94529801FF6A4108E /* Pods-URandomInteger_Example */;
+			targetProxy = 2FC6998D1F1087F23BD331EC7D80B91B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		095FC6A0BE2C6CC7CD8DF22C50AFDD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC5A104DBBA7AAC5866A8B5E8B12DD1 /* URandomInteger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/URandomInteger/URandomInteger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/URandomInteger/URandomInteger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/URandomInteger/URandomInteger.modulemap";
+				PRODUCT_MODULE_NAME = URandomInteger;
+				PRODUCT_NAME = URandomInteger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10B518580D3CFE74FE7AF0F587D11447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC5A104DBBA7AAC5866A8B5E8B12DD1 /* URandomInteger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/URandomInteger/URandomInteger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/URandomInteger/URandomInteger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/URandomInteger/URandomInteger.modulemap";
+				PRODUCT_MODULE_NAME = URandomInteger;
+				PRODUCT_NAME = URandomInteger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A3AC24E32A0EEA62C743242B7EB17F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2B41FA6ECD86EEB97B3C0A42F47556 /* Pods-URandomInteger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-URandomInteger_Example/Pods-URandomInteger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-URandomInteger_Example/Pods-URandomInteger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E889CE226F33A833285B417E1CD2C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27946695583D84FE22E8A54E63DBA1A7 /* Pods-URandomInteger_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-URandomInteger_Tests/Pods-URandomInteger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-URandomInteger_Tests/Pods-URandomInteger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3C37DA16588A868B405EE77505BD1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EB0F0D1C65B29D57CD6811A3A3F75B /* Pods-URandomInteger_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-URandomInteger_Example/Pods-URandomInteger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-URandomInteger_Example/Pods-URandomInteger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1C3C265723B60AFF9E2FDA5E6CF76D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A8A9B958D0A512D59F0D59BD7DB6BE /* Pods-URandomInteger_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-URandomInteger_Tests/Pods-URandomInteger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-URandomInteger_Tests/Pods-URandomInteger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47AC4365B4CD538C1B3D049F52B7850A /* Build configuration list for PBXNativeTarget "URandomInteger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095FC6A0BE2C6CC7CD8DF22C50AFDD69 /* Debug */,
+				10B518580D3CFE74FE7AF0F587D11447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A9AC6CB7C97B12A79A1219314B5EB27 /* Build configuration list for PBXNativeTarget "Pods-URandomInteger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E889CE226F33A833285B417E1CD2C31 /* Debug */,
+				E1C3C265723B60AFF9E2FDA5E6CF76D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E1AFA17C8F0B48964B852A8EC8289EF /* Build configuration list for PBXNativeTarget "Pods-URandomInteger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3AC24E32A0EEA62C743242B7EB17F1 /* Debug */,
+				C3C37DA16588A868B405EE77505BD1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
